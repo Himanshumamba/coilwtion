@@ -1,0 +1,288 @@
+.navbar {
+ overflow: hidden;
+    background-color: #ff6200;
+    padding-left: 19%;
+    padding-top: 8px;
+    height: 39px;
+	text-transform: uppercase;
+	font-family: 'BebasNeueRegular';
+ font-size: 15px;
+letter-spacing: 0px;
+line-height: 19px;
+color: #be3600;
+	}
+.navbar a{
+
+color:#ee5600;
+}
+
+
+.right {
+  float: right;
+  padding-right: 23%;
+}
+.right_two a{
+padding-right:18px;
+}
+
+.right_two {
+  float: right;
+  padding-right: 20%;
+}
+
+
+
+a{
+text-decoration:none;
+}
+.topnav{
+
+background-color: #f9f9f9;
+    text-align: center;
+    height: 85px;
+    padding-top: 2%;
+}
+.right a {
+    padding: 14px 0 0 0;
+}
+
+input[type=text]{
+
+height:30px;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  border: none;
+
+      background: #f6f6f6;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none;
+}
+input[type=number] ,input[type=email] {
+  padding: 12px;
+  border: none;
+      background: #f6f2f2;
+  margin-top: 6px;
+  margin-bottom: 16px;
+   resize: vertical;
+   
+}
+.fa-facebook, .fa-twitter,.fa-linkedin,.fa-pinterest {
+  background:#cecece;
+    color: white;
+
+}
+
+.fa {
+  padding: 10px;
+    text-align: center;
+}
+.fa:hover {
+    opacity: 0.7;
+	background-color:#000;
+}
+
+
+input[type=submit] {
+background-color: #ff6200;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+	text-transform:uppercase;
+	font-size: 13px;
+font-family: "Open Sans";
+font-weight: 700;
+}
+
+span#signup {
+    padding-left: 7px;
+}
+
+ .dat {
+font-size: 14px;
+letter-spacing: 0px;
+line-height: 19px;
+color: #878787;
+font-family: 'Ubuntu', sans-serif;font-weight: 300;
+
+}
+
+.column {
+  float: left;
+
+}
+
+.spacer {
+    padding-bottom: 2em;
+}
+hr {
+height: 6px;
+background-color: #3d3d3d;
+}
+
+.row_two {    
+padding-left: 12em;
+    width: 40%;
+font-size: 16px;
+color: #595959;
+font-family: "Myriad Pro";
+
+    float: left;
+}
+
+  .contact{
+  color: #e3dada;
+  padding-top:4em;
+  padding-bottom:2em;
+  font-size: 14px;
+line-height: 25px;
+color: #929292;
+font-family: 'Ubuntu', sans-serif;font-weight: 400;
+  }
+  #blog{
+  font-size: 14px;
+line-height: 25px;
+color: #454545;
+font-family: "DejaVu Sans";
+font-weight: 400;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding-left: 19%;
+}
+.who{
+padding-bottom: 3em;
+}
+
+h2 {
+    color:#ff6200;
+    padding: 0;
+	font-size: 21px;
+    margin: 0;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	}
+	
+.ph_mob {
+    padding-bottom: 3em;
+}
+
+
+	
+	
+	
+		#main_nav li:hover > ul {
+			visibility: visible;
+			opacity: 1;
+		}
+		
+
+		#main_nav li {
+			float: left;
+			position: relative;
+			list-style: none;
+			-webkit-transition: .9s;
+			transition: .9s;
+		}
+	
+		#main_nav > ul > li > a, h1 {
+			text-transform: capitalize;
+		}
+	
+		#main_nav a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+    padding-top: 1em;
+		}
+		
+		
+		
+.address{
+	
+	
+	
+}
+.f_cont{
+
+    text-transform: capitalize;
+font-weight: 700;
+font-size: 27px;
+line-height: 19px;
+font-family: 'Open Sans', sans-serif;
+}
+
+		#main_nav ul ul {
+			position: absolute;
+			left: 0;
+			top: 300%;
+			visibility: hidden;
+			opacity: 0;
+			border:1px solid #000;
+			font-size: 12px;
+line-height: 25px;
+color: #454545;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+
+		}
+	
+		#main_nav ul ul ul {
+			left: 100%;
+			top: 0;
+			text-align:center;
+		 border:1px solid #000;
+
+		}
+	
+
+		#main_nav li:hover > ul {
+			visibility: visible;
+			opacity: 1;
+			background-color: #fff;
+		}
+		
+	
+		#signup a {
+    color: #ffffff;
+}
+		#numb{
+color: #fff;
+    padding-left: 1em;		
+	}
+.logo{
+font-size: 41px;
+letter-spacing: 0px;
+color: #313131;
+font-family: "BebasNeueRegular";
+}
+
+@media only screen and (max-width: 600px) {
+.container {
+    padding-left: 1em;
+}
+input[type=number], input[type=email]{
+padding:0px;
+height: 34px;
+}
+
+.right_two {
+    float: none; 
+    padding-right: 0px ;
+	
+}
+
+.logo {
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #313131;
+    font-family: "BebasNeueRegular";
+}
+
+}
